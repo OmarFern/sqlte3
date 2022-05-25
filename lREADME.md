@@ -1,3 +1,4 @@
+ instalar-------->https://nodejs.org/es/        16.15.0 LTS
  instalar-------->pip install tabulate
  url como usarlo ---------> https://pypi.org/project/tabulate/
  DB Browser ----->https://sqlitebrowser.org/dl/
