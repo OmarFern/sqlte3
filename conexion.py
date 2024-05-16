@@ -11,7 +11,7 @@ def conectar():
         print('Ha ocurrido un error', err)
 
 def crear_tabla(conexion):
-    cursor = conexion.cursor()
+    cursor = conexion.cursor() # el indicador de posición en la pantalla de una computadora donde un usuario puede ingresar texto
     sentencia_sql = ''' CREATE TABLE IF NOT EXISTS contacto(
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         nombre TEXT NOT NULL,

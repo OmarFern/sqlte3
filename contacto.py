@@ -18,7 +18,7 @@ def mostrar():
     try:
         con = conectar()
         cursor = con.cursor()
-        sentencia_sql = ''' SELECT * FROM contacto ''' 
+        sentencia_sql = ''' SELECT * FROM contacto ''' # trae todos los resultados de la tabla contactos 
         cursor.execute(sentencia_sql)
         datos = cursor.fetchall()#recupera todas las filas del resultado de una consulta. Devuelve todas las filas como una lista de tuplas. Se devuelve una lista vacía si no hay ningún registro que recuperar
         con.close()

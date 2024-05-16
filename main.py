@@ -30,6 +30,8 @@ def iniciar():
             eliminar_contacto()
         elif opcion == '6':
             seguir=False
+        else:
+            print('-------------> Escoja una opción correcta')
 
 
 def nuevo_contacto():
